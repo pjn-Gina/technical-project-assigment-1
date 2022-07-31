@@ -1,0 +1,124 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  box-sizing: border-box;
+}
+
+.body{
+  background-color: rgb(83, 160, 228);
+}
+
+.nav-bar{
+  height: 650px;
+  max-width: 100%;
+  background-image: url(assets/IMG-20201201-WA0029.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+/* style image */
+
+.lanching{
+  margin-left: 50px;
+  margin-bottom: 30px;
+  margin-right: 20px;
+  margin-top: 65px;
+  width: 350px;
+  height: 350px;
+  border-radius: 80vw;
+  border: 5px solid #ddd;
+  padding: 15px;
+  border-color: rgba(10, 180, 231, 0.315); 
+  border-style: outset; 
+}
+
+.lancing hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between ;
+  padding-top: 15px;
+  padding-left: 8%;
+  padding-right: 0;
+}
+
+.heading{
+  color :rgba(10, 18, 31, 0.664);
+  font-size: 25px;
+  letter-spacing: 4px;
+  margin-left: 45px;
+}
+
+span{
+  color: rgb(31, 137, 187);
+}
+
+
+#blog{
+  margin-right: 25px;
+}
+
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px 25px;
+}
+
+nav ul li a{
+  color: rgb(24, 11, 11);
+  text-decoration: none;
+  font-weight: bold;
+  font-style: italic;
+  text-transform: capitalize;
+  background-color:rgb(116, 141, 250);
+  margin-left: 15px;
+  padding: 10px;
+  border: 2px solid transparent;
+  border-radius: 30px;
+}
+
+nav ul li a:hover{
+  color:rgb(116, 141, 250);
+  transition: 0.4s;
+  background-color: black;
+}
+
+@media (max-width:600px){
+  .bio-pjn{
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.bio-pjn{
+  position: absolute;
+  top: 35%;
+  right: 20%;
+  line-height: 10px;
+  
+}
+
+h4{
+  color: black;
+  font-size: 20px;
+  margin-top: 5px;
+}
+
+h1{
+  color: rgb(25, 0, 139);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  font-size: 200px;
+  margin: 10px 10px;
+}
+
+h3{
+  color: black;
+  font-size: 25px;
+  margin-top: 70px;
+  font-family: cursive;
+}

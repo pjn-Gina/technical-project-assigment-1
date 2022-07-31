@@ -1,0 +1,169 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  box-sizing: border-box;
+  position: relative;
+  
+}
+
+.body{
+  background-color: rgb(16, 148, 60);
+}
+
+.nav-bar{
+  height: 900px;
+  max-width: 100%;
+  background-image: url(/assets/IMG-20201201-WA0030.jpg);
+  background-size: cover;
+  background-position: center;
+ 
+}
+
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between ;
+  padding-top: 15px;
+  padding-left: 8%;
+  padding-right: 0;
+}
+
+.heading{
+  color :rgba(10, 18, 31, 0.664);
+  font-size: 25px;
+  letter-spacing: 4px;
+  margin-left: 45px;
+}
+
+span{
+  color: rgb(23, 146, 60);
+}
+
+#blog{
+  margin-right: 25px;
+}
+
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px 25px;
+}
+
+nav ul li a{
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-weight: bold;
+  font-style: italic;
+  text-transform: capitalize;
+  background-color:#36a047;
+  margin-left: 15px;
+  padding: 10px;
+  border: 2px solid transparent;
+  border-radius: 30px;
+}
+
+nav ul li a:hover{
+  color: #36a047;
+  transition: 0.4s;
+  background-color: white;
+}
+
+/* style about page */
+
+.about-here{
+  width: 100%;
+  padding: 100px 0px;
+  justify-content: center;
+}
+
+@media (max-width:600px){
+  .about-text{
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.about-text h2, p{
+  align-content: center;
+  width: 750px;
+  height: 20px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.paragraph{
+  float: right;
+  margin-left: 450px;
+  margin-right: 10px;
+  margin-top: 0;
+  color: rgb(255, 255, 255);
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
+}
+
+.part-of{
+  color: rgb(52, 240, 108);
+}
+
+.title-prg{
+  padding: 4px;
+  justify-content: center;
+  text-align: justify;
+  position: relative;
+  padding: 8px;
+  line-height: 20px;
+  width: 55%;
+
+}
+
+#title-about{
+  margin-left: 20%;
+  color: rgb(30, 233, 80);
+
+}
+
+/* image */
+.about-here img{
+  margin-left: 450px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  margin-top: 0;
+  width: 400px;
+  height: 300px;
+  border-radius: 5vw;
+  border: 5px solid #ddd;
+  padding: 15px;
+  border-color: rgba(4, 59, 4, 0.315); 
+  border-style: inset 
+}
+
+.main{
+  width: 400px;
+  max-width: 90%;
+  margin-top: 10px;
+  margin-left: 40px;
+  display: inline-block;
+}
+
+/* style button */
+.about-text button{
+  margin-top: 200px;
+  margin-left: 49%;
+  padding: 4px;
+  width: 100px;
+  border-radius: 10px;
+  border: 2px solid;
+  background-color: rgb(30, 170, 30);
+  background-size: 5px;
+  color: rgb(255, 255, 255);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.about-text button:hover{
+  background-color: black;
+  color: #ddd;
+  
+}
